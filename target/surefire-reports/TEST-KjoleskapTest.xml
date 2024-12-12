@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="KjoleskapTest" time="0.075" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="KjoleskapTest" time="0.08" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Bruker\AppData\Local\Temp\surefire15905029451251282106\surefirebooter-20241211063321355_3.jar C:\Users\Bruker\AppData\Local\Temp\surefire15905029451251282106 2024-12-11T06-33-21_208-jvmRun1 surefire-20241211063321355_1tmp surefire_0-20241211063321355_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Bruker\AppData\Local\Temp\surefire5556761689388635929\surefirebooter-20241212061239553_3.jar C:\Users\Bruker\AppData\Local\Temp\surefire5556761689388635929 2024-12-12T06-12-39_403-jvmRun1 surefire-20241212061239553_1tmp surefire_0-20241212061239553_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Bruker\OneDrive\Documents\GitHub\idatt1003-mappe-2024-Gigaquake\target\test-classes;C:\Users\Bruker\OneDrive\Documents\GitHub\idatt1003-mappe-2024-Gigaquake\target\classes;C:\Users\Bruker\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Bruker\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Bruker\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Bruker\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Bruker\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Bruker\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Bruker\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Bruker\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Bruker\AppData\Local\Temp\surefire15905029451251282106\surefirebooter-20241211063321355_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Bruker\AppData\Local\Temp\surefire5556761689388635929\surefirebooter-20241212061239553_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -56,14 +56,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testFjernMatvare" classname="KjoleskapTest" time="0.038"/>
+  <testcase name="testFjernMatvare" classname="KjoleskapTest" time="0.041"/>
   <testcase name="testLeggTilOgFinnMatvare" classname="KjoleskapTest" time="0.001"/>
   <testcase name="testReduserMengde" classname="KjoleskapTest" time="0.002"/>
-  <testcase name="testBeregnVerdi" classname="KjoleskapTest" time="0.0"/>
-  <testcase name="testSkrivUtUtdaterte" classname="KjoleskapTest" time="0.008">
+  <testcase name="testBeregnVerdi" classname="KjoleskapTest" time="0.001"/>
+  <testcase name="testSkrivUtUtdaterte" classname="KjoleskapTest" time="0.01">
     <system-out><![CDATA[Utdaterte varer:
-Melk, 1.5 L, utlÃ¸psdato: 10.12.2023, pris: 30.0 kr
-Melk, 1.5 L, utlÃ¸psdato: 10.12.2024, pris: 30.0 kr
+Melk, 1.5 L, utløpsdato: 10.12.2023, pris: 30.0 kr
+Melk, 1.5 L, utløpsdato: 10.12.2024, pris: 30.0 kr
 Samlet verdi av utdaterte varer: 60.0 kr
 ]]></system-out>
   </testcase>
