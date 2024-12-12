@@ -3,11 +3,14 @@ import java.util.Scanner;
 import java.text.ParseException;
            
 public class FoodWasteApp {
-    public static void main(String[] args) throws ParseException {
-        Scanner scanner = new Scanner(System.in);
+    private void init() {
         Fridge fridge = new Fridge();
-        fridge.fillFrdige();
+        fridge.fillFrdige(); // Legger til varer i kjøleskapet for tester
+    }
 
+
+    public void start() {
+        Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("\n1. Legg til vare i kjøleskapet\n2. Søk etter vare\n3. Fjern vare\n4. Skriv ut alle varer\n5. Skriv ut utdaterte varer\n6. Beregn verdi av varer\n7. Skriv ut varer med best-før-dato før angitt dato\n8. Vis pris per enhet for en vare\n9. Avslutt");
             System.out.print("Velg et alternativ: ");
@@ -109,5 +112,10 @@ public class FoodWasteApp {
                     System.out.println("Ugyldig valg, prøv igjen.");
             }
         }
+    }
+    public static void main(String[] args) {
+        FoodWasteApp app = new FoodWasteApp();
+        app.init(); // Initialiserer applikasjonen
+        app.start(); // Starter hovedmenyen
     }
 }
